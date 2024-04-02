@@ -23,6 +23,7 @@ endif
 ifeq ($(arch), arm64)
 	instance_type ?= m6g.large
 	AMI_VARIANT := $(AMI_VARIANT)-arm64
+# Below is my custom change to suite personal project I'm currently working on
 else
 	instance_type ?= t2.micro
 endif
